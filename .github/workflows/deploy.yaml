@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.1
 
-      - run: pnpm ci
+      - run: pnpm install --frozen-lockfile
       - run: pnpm run build
 
       - uses: actions/upload-pages-artifact@v5
