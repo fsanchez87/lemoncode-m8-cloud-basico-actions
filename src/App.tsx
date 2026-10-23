@@ -4,7 +4,7 @@ function App() {
     <>
       <h1>
         🍋 Lemoncode - M8 Cloud - Laboratorio básico:
-        Despliegue mediante GitHub Actions
+        Despliegue con GitHub Actions
       </h1>
 
       <section>
