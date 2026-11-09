@@ -1,13 +1,10 @@
-🍋 Lemoncode - M8 Cloud - Laboratorio básico: Despliegue manual en GitHub Pages
+🍋 Lemoncode - M8 Cloud - Laboratorio opcional: Despliegue en Vercel
 ===============================================================================
 
-Instrucciones para desplegar manualmente la aplicación en GitHub Pages
-----------------------------------------------------------------------
+Instrucciones para desplegar la aplicación en Vercel
+----------------------------------------------------
 
-1.  Crear el repositorio en GitHub.
-2.  Añadir el repositorio remoto al proyecto.
-3.  Crear una rama llamada `gh-pages`.
-4.  Generar la versión de producción de la aplicación.
-5.  Subir el contenido de la carpeta `dist` a la rama `gh-pages`.
-
-[Enlace Github Pages](https://fsanchez87.github.io/lemoncode-m8-cloud-basico-manual/).
+1.  Crear el repositorio en GitHub y subir el código a la rama `deploy-vercel`.
+2.  Entrar en [Vercel](https://vercel.com) e importar el repositorio con **Add New… → Project**.
+3.  Vercel detecta automáticamente el proyecto Vite. 
+4.  Pulsar **Deploy**. Cada push a `delpoly-vercel` generará un nuevo despliegue automáticamente.

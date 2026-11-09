@@ -3,14 +3,14 @@ function App() {
   return (
     <>
       <h1>
-        🍋 Lemoncode - M8 Cloud - Laboratorio básico:
-        Despliegue con GitHub Actions
+        🍋 Lemoncode - M8 Cloud - Laboratorio opcional:
+        Despliegue en Vercel
       </h1>
 
       <section>
         <h2>
           Instrucciones para desplegar la aplicación
-          mediante GitHub Actions
+          en Vercel
         </h2>
 
         <ol>
@@ -18,44 +18,28 @@ function App() {
 
           <li>
             Añadir el repositorio remoto al proyecto
-            y subir el código a la rama <code>main</code>.
+            y subir el código a la rama <code>deploy-vercel</code>.
           </li>
 
           <li>
-            Configurar GitHub Pages desde
-            <strong> Settings → Pages</strong>,
-            seleccionando <strong>GitHub Actions </strong>
-            como origen del despliegue.
+            Entrar en <strong>Vercel</strong> e importar
+            el repositorio con <strong>Add New… → Project</strong>.
           </li>
 
           <li>
-            Crear el workflow
-            <code> .github/workflows/deploy.yml</code>.
+            Comprobar la configuración: Vercel detecta
+            automáticamente el proyecto Vite.
           </li>
 
           <li>
-            Configurar el job <code>build</code> para
-            instalar las dependencias, compilar la
-            aplicación y subir la carpeta <code>dist</code>
-            mediante <code>actions/upload-pages-artifact</code>.
+            Pulsar <strong>Deploy</strong>. Cada push a la
+            rama configurada generará un nuevo despliegue
+            automáticamente.
           </li>
 
           <li>
-            Configurar el job <code>deploy</code> para
-            publicar el artefacto mediante
-            <code> actions/deploy-pages</code>.
-          </li>
-
-          <li>
-            Hacer un <code>push</code> a la rama
-            <code> main</code> para ejecutar
-            automáticamente el workflow.
-          </li>
-
-          <li>
-            Comprobar el resultado del despliegue en
-            la pestaña <strong>Actions</strong> y acceder
-            a la aplicación publicada en GitHub Pages.
+            Acceder a la aplicación publicada desde el
+            panel del proyecto en Vercel.
           </li>
         </ol>
       </section>
