@@ -4,7 +4,7 @@ function App() {
     <>
       <h1>
         🍋 Lemoncode - M8 Cloud - Laboratorio Opcional:
-        Automatizar el despliegue de la app en Render, usando Docker.
+        Desplegar la imagen Docker en Docker Hub.
       </h1>
     </>
   )
